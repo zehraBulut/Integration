@@ -15,3 +15,7 @@ public class customerAPI {
         
     }  
 }
+
+
+/* INvoke: customerAPI.getCustomers();
+debug:200-Json modda*/
