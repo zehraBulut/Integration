@@ -1,4 +1,4 @@
-//HTTPpost-->send a record to PATHtosalesforce
+//HTTPpost-->creATE 1 RECORD and send  to PATHtosalesforce
 
 public class customerAPI {
     public static void postCustomer() {
@@ -19,12 +19,14 @@ public class customerAPI {
            }    
        }
 
-
        /* cagir a.w.dan -->  customerAPI.postCustomer();
         debug: 201-a record created */
 
 
-//HTTPpost-->create more than 1 record  and send to PATHtosalesforce    
+
+        
+
+//HTTPpost--> create more than 1 record  and send to PATHtosalesforce    
          
 public static void postCustomer() {          
   public static void postCustomers() {
