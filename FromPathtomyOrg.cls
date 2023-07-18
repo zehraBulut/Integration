@@ -1,4 +1,4 @@
-//my aim: GET JSONS from outsite to my oRG
+//INTEGRATİON-HTTP Methods/ GET  (FROM PATHtosalesforce to my Org)
 
 public class customerAPI {
   public static void getCustomers() {
