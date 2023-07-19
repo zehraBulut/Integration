@@ -1,6 +1,18 @@
 //send contact(s) to  endPoint  :(var olan  contactları alıp karsı tarafa gonderıcez)
 
 
+
+//CUSTOMER CLASS:
+public class CustomerRequest {    
+public string firstName;
+public string lastName;    
+public string email;    
+public string phone;    
+public string gender;
+public string status;    
+}    
+
+
 public class customerAPI {
 public static void PostCustomerFromContacts(){      
     List<contact> conList = [SELECT Id,LastName, phone, Email FROM Contact];    
