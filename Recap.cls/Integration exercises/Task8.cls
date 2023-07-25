@@ -12,5 +12,5 @@ global class provider {
         List< account>accList = [SELECT ID,name,Rating from account WHERE Rating =:filtre ];
         return acclist;
     }    
-}
+
 
