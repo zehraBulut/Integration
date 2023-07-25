@@ -6,4 +6,4 @@ global class provider {
         List< account>accList=[SELECT ID,name from account LIMIT  5];
         return acclist;    
     }    
-}
+
